@@ -1,0 +1,39 @@
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    font-family: "Roboto", sans-serif;
+}
+
+.left-column{
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 50px;
+}
+
+.left-column > .mi {
+    color: red;
+}
+
+.left-column > .health {
+    color: green;
+}
+
+
+.right-column{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.nav-link{
+    padding: 20px;
+}
