@@ -6,16 +6,17 @@ a{
 .navbar{
     display: flex;
     justify-content:space-between;
+    font-family: "Roboto", sans-serif;
 }
 
 .left-column{
     justify-content: end;
     display: flex;
     align-items: center;
-    /* font-family: "New Amsterdam", sans-serif;
-    /* font-weight: 400; */
-    /* font-style: normal; */
     font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 50px;
 }
 
 .left-column > .mi {
@@ -30,6 +31,7 @@ a{
 .right-column{
     display: flex;
     justify-content: space-between;
+    padding-right: 50px;
 }
 
 .nav-link{
