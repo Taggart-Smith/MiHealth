@@ -15,6 +15,8 @@ body{
     display: grid;
     /* background-color: lightgray; */
     grid-template-columns: 25% 25% 25% 25%;
+    padding: 40px;
+    font-family: "Roboto", sans-serif;
 }
 
 .column-1{
@@ -22,13 +24,42 @@ body{
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    font-size: 16px;
 }
 
-img{
+.content-box > img{
     width: 100%;
+    height: auto;
 }
 
 .content-box {
     display: flex;
     align-content:center;
+    padding: 10px;
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-title > h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+}
+
+.title {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+}
+
+.meal {
+    background-color: greenyellow;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
 }
