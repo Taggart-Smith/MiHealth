@@ -1,10 +1,19 @@
 body{
     margin: 0px;
+    height: 100vh;
+}
+
+.content{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: lightgray;
+    align-content: center;
 }
 
 .home-page{
     display: grid;
-    background-color: lightgray;
+    /* background-color: lightgray; */
     grid-template-columns: 25% 25% 25% 25%;
 }
 
@@ -17,4 +26,9 @@ body{
 
 img{
     width: 100%;
+}
+
+.content-box {
+    display: flex;
+    align-content:center;
 }
