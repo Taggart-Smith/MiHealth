@@ -9,10 +9,12 @@ a{
     font-family: "Roboto", sans-serif;
     background-color: white;
     position: fixed;
+    top: 0px;
+    left: 0px;
     width: 100%;
 }
 
-.left-column{
+.left-column{   
     justify-content: end;
     display: flex;
     align-items: center;
