@@ -11,13 +11,11 @@ body{
     margin: 0px;
     padding: 0px;
     height: 100%;
-    /* background-color: lightgray; */
     align-content: center;
 }
 
 .home-page{
     display: grid;
-    /* background-color: lightgray; */
     grid-template-columns: 25% 25% 25% 25%;
     padding: 40px;
     font-family: "Roboto", sans-serif;
@@ -57,13 +55,19 @@ body{
 }
 
 .title {
+    position: absolute;
     background-color: white;
     padding: 10px 10px 10px 10px;
     margin: 0px;
+    right: 10px;
+    bottom: 49px;
 }
 
 .meal {
+    position: absolute;
     background-color: greenyellow;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 50px;
     margin: 0px;
+    right: 10px;
+    bottom: 10px;
 }
